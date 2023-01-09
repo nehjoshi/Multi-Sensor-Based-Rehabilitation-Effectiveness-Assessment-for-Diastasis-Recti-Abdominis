@@ -1,0 +1,32 @@
+.box {
+    width: 80%;
+    background-color: #fff;
+    height: fit-content;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-size: 2.7rem;
+    }
+}
+.text {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.inputWrapper {
+    width: 25%;
+}
+.button {
+    margin: 0px 20px;
+    font-size: 1.3rem;
+}

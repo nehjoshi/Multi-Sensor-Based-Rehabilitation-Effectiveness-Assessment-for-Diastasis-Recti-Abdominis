@@ -3,8 +3,10 @@ import React from 'react';
 import styles from "../../sass/Home.module.scss";
 import { Button } from "@mui/material";
 import MainImg from "../../images/main.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+    const navigator = useNavigate();
     return (
         <Layout center={true}>
             <div className={styles.box}>
@@ -13,7 +15,7 @@ export default function Home() {
                     <p>The future of exercise monitoring is here, with our new <span>highly
                         trained</span> machine learning model. Easy-to-use, easy-to-incorporate. Try it now.
                     </p>
-                    <Button variant="contained" size="large" className={styles.button}>Try now</Button>
+                    <Button onClick={() => navigator('/start')} variant="contained" size="large" className={styles.button}>Try now</Button>
                 </div>
                 <div className={styles.right}>
                     <img src={MainImg} className={styles.mainImage} />
