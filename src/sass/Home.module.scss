@@ -1,0 +1,36 @@
+.box {
+    width: 80%;
+    background-color: #fff;
+    height: fit-content;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 100px;
+}
+.left {
+    width: 50%;
+    h1 {
+        font-size: 5.5rem;
+    }
+    p {
+        font-size: 1.9rem;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+    span {
+        color: rgb(78, 111, 255);
+    }
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin-top: 20px !important;
+    font-size: 1.5rem !important;
+}
+.mainImage {
+    height: 700px;
+}
