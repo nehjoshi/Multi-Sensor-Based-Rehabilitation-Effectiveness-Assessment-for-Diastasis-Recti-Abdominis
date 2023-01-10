@@ -14,6 +14,9 @@
         font-size: 2.7rem;
     }
 }
+.content {
+    margin-top: 20px;
+}
 .text {
     font-size: 1.3rem;
     margin-top: 20px;
@@ -27,6 +30,16 @@
     width: 25%;
 }
 .button {
-    margin: 0px 20px;
+    margin: 20px 20px;
     font-size: 1.3rem;
+}
+.sampleSpan {
+    color: rgb(96, 96, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(70, 70, 255);
 }
