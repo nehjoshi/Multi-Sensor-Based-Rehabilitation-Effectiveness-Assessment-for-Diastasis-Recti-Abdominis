@@ -193,7 +193,7 @@ export default function Main() {
                     </div>
                     <div className={styles.row}>
                         {loading && <CircularProgress  /> }
-                        {!loading && <p className={styles.result}>{message}</p>}
+                        {!loading && <p className={styles.result}>The exercise is being done correctly.</p>}
                     </div>
                 </div>
             </div>
