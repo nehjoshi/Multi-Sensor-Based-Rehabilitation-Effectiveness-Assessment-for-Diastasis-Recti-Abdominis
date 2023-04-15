@@ -4,7 +4,7 @@ import styles from "../sass/Global.module.scss";
 export default function Navbar() {
     return (
         <nav className={styles.navWrapper}>
-            <h3>Real - Time Monitoring of Exercise Efficacy</h3>
+            <h3><span>Trainer.io:</span> Real-time Assessment of Rehabilitation Exercises</h3>
         </nav>
     )
 

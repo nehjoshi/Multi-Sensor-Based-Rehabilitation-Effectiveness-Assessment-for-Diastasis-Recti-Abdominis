@@ -12,10 +12,11 @@ export default function Home() {
             <div className={styles.box}>
                 <div className={styles.left}>
                     <h1>Redefining <span>Modern</span> Exercise Monitoring.</h1>
-                    <p>The future of exercise monitoring is here, with our new <span>highly
-                        trained</span> machine learning model. Easy-to-use, easy-to-incorporate. Try it now.
+                    <p>How effectively are you performing your exercises? Are you doing them correctly? Are you doing them at all?
+                     <br />
+                     Introducting <span>Trainer.io</span>, a revolutionary new way to monitor your exercises in real-time.
                     </p>
-                    <Button onClick={() => navigator('/start')} variant="contained" size="large" className={styles.button}>Try now</Button>
+                    <Button onClick={() => navigator('/login')} variant="contained" size="large" className={styles.button}>Try now</Button>
                 </div>
                 <div className={styles.right}>
                     <img src={MainImg} className={styles.mainImage} />
