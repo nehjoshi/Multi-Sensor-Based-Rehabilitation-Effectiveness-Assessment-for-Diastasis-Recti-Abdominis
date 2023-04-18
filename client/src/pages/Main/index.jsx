@@ -12,7 +12,7 @@ export default function Main() {
     const Submit = () => {
         setLoading(true);
         axios({
-            url: `http://74d7-35-199-53-174.ngrok.io/post_data?sen1=${sensorValues.sen1}&sen2=${sensorValues.sen2}&sen3=${sensorValues.sen3}&sen4=${sensorValues.sen4}&sen5=${sensorValues.sen5}&sen6=${sensorValues.sen6}&sen7=${sensorValues.sen7}&sen8=${sensorValues.sen8}&sen9=${sensorValues.sen9}&sen10=${sensorValues.sen10}&sen11=${sensorValues.sen11}&sen12=${sensorValues.sen12}&sen13=${sensorValues.sen13}&sen14=${sensorValues.sen14}&sen15=${sensorValues.sen15}&sen16=${sensorValues.sen16}&sen17=${sensorValues.sen17}&sen18=${sensorValues.sen18}&sen19=${sensorValues.sen19}&sen20=${sensorValues.sen20}&sen21=${sensorValues.sen21}&sen22=${sensorValues.sen22}&sen23=${sensorValues.sen23}&sen24=${sensorValues.sen24}&sen25=${sensorValues.sen25}&sen26=${sensorValues.sen26}&sen27=${sensorValues.sen27}&sen28=${sensorValues.sen28}&sen29=${sensorValues.sen29}&sen30=${sensorValues.sen30}&sen31=${sensorValues.sen31}&sen32=${sensorValues.sen32}`,
+            url: `http://74d7-35-199-53-174.ngrok.io/post_data?sen1=${sensorValues.sen1}&sen2=${sensorValues.sen2}&sen3=${sensorValues.sen3}&sen4=${sensorValues.sen4}&exercise=${sensorValues.sen5}`,
             method: "GET",
         })
             .then(res => {
@@ -37,34 +37,6 @@ export default function Main() {
             sen2: 2.510869565,
             sen3: 10.9673913,
             sen4: 1.414721724,
-            sen5: 0.687013764,
-            sen6: 9.577498504,
-            sen7: 4130.40293,
-            sen8: 1709.157509,
-            sen9: -0.523873672,
-            sen10: 0.687322257,
-            sen11: -2.582547523,
-            sen12: -0.365817091,
-            sen13: 0.191904048,
-            sen14: -0.124437781,
-            sen15: 101.0968276,
-            sen16: -0.372213976,
-            sen17: 0.754091937,
-            sen18: -0.175445087,
-            sen19: -0.023407384,
-            sen20: -0.039987274,
-            sen21: -0.064872471,
-            sen22: -0.910536543,
-            sen23: -0.653137817,
-            sen24: -0.293084973,
-            sen25: -0.252970673,
-            sen26: 0.101136809,
-            sen27: 0.049784644,
-            sen28: 0.134172441,
-            sen29: 0.027437342,
-            sen30: 0.941206832,
-            sen31: 0.965802526,
-            sen32: 34.17034305
         })
     }
 

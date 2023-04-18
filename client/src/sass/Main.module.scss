@@ -6,6 +6,10 @@
     display: flex;
     flex-direction: column;
     padding: 20px 50px;
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
 }
 .header {
     display: flex;
@@ -18,7 +22,7 @@
     margin-top: 20px;
 }
 .text {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-top: 20px;
 }
 .row {
@@ -42,4 +46,21 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(70, 70, 255);
+}
+.miniBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+}
+.image {
+    height: 200px;
+    display: block;
+}
+.subTitle {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: rgb(109, 109, 255);
+    font-weight: bold;
 }
